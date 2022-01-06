@@ -9,7 +9,6 @@ jobs:
     steps:
       - name: Setup Node.js environment
         uses: actions/setup-node@v2.5.1
-
       - name: update-chabokan
         env:
           CHABOKAN_TOKEN: ${{ secrets.CHABOKAN_TOKEN }}
